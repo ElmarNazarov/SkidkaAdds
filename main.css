@@ -813,4 +813,10 @@ main {
         top: 89px;
         height: 0;
     }
+    .mainVertBlockItem > img {
+    	height: 100%;
+    	width: 100%;
+    	object-fit: contain;
+    	object-position: center; 
+    }
 }
