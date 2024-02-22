@@ -685,6 +685,9 @@ main {
 
 .mainSideBlockItem > img {
     width: 100%;
+    display: block;
+    position: sticky;
+    top: 89px;
     /* height: 770px; */
 }
 
@@ -809,9 +812,6 @@ main {
 
     .mainSideBlockItem {
         display: block;
-        position: sticky;
-        top: 89px;
-        height: 0;
     }
     .mainVertBlockItem > img {
     	height: 100%;
